@@ -1,0 +1,38 @@
+@mixin flex($direction, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@mixin gradientBackground {
+  background-image: linear-gradient(
+    to right,
+    $colour-secondary,
+    $colour-primary
+  );
+}
+
+@mixin fontMontserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+@mixin fontRubik {
+  font-family: "Rubik", sans-serif;
+}
+
+@mixin mobile {
+  @media all and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media all and (min-width: 768px) and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media all and (min-width: 992px) {
+    @content;
+  }
+}

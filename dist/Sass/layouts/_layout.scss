@@ -1,0 +1,174 @@
+.my-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-mid-grey {
+  background-color: $colour-mid-grey;
+}
+.gold-partner {
+  overflow: hidden;
+  box-shadow: 5px 5px 15px grey;
+  border-radius: 10px;
+
+  &img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.gradientBackground {
+  @include gradientBackground;
+}
+
+.hero {
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-image: url("../assets/images/cisco_banner.png");
+}
+
+.my-grid-1 {
+  width: 100%;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 10px;
+
+}
+
+.my-grid-2 {
+  width: 100%;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 10px;
+
+}
+
+.custom-card {
+  border-radius: 0;
+  background-color: #fff;
+}
+
+.divider {
+  border-bottom: 3px solid $colour-secondary;
+  width: 80px;
+  margin: 20px 0;
+}
+
+.divider--white {
+  border-bottom: 3px solid #fff;
+  width: 80px;
+  margin: 20px 0;
+}
+
+.latest-posts-heading {
+  color: #fff;
+}
+
+.infographic {
+  width: 100%;
+}
+
+.with-dots {
+  position: relative;
+}
+
+.overlaid {
+  &--img {
+    height: 125px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 1.5rem;
+    margin: auto;
+  }
+  &--btn {
+    border-radius: 25px;
+    color: #fff;
+    background-color: $colour-secondary;
+    border: none;
+    width: 110px;
+    height: 35px;
+    font-weight: 600;
+    font-size: smaller;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 2rem;
+    margin: auto;
+  }
+}
+
+.blue-line {
+  border-bottom: 7px solid $colour-quaternary;
+  width: 100%;
+  margin: 20px 0;
+  padding-top: 20px;
+}
+
+.dots {
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.mission-card {
+  border-radius: 0;
+  border: 0;
+
+  & .card-body {
+    background-color: $colour-quaternary;
+    color: #fff;
+  }
+}
+
+.bg-color-primary {
+  background-color: $colour-primary;
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.card-img-top {
+  position: relative;
+}
+
+.white-veil::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom right, #45be8c, #1a437d);
+  opacity: 0.6;
+}

@@ -1,0 +1,51 @@
+.fa-heart {
+  color: red;
+  font-size: x-small;
+}
+
+.cta-btn {
+  width: 100px;
+  font-size: small;
+  background-color: $colour-tertiary;
+  margin: 20px 5px;
+}
+
+.card-btn {
+  border-radius: 25px;
+  color: #fff;
+  background-color: $colour-secondary;
+  border: none;
+  width: 120px;
+  margin: 20px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.tiny-circle {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  border: none;
+  color: black;
+  font-weight: 800;
+}
+
+.case-study-btn {
+  border-radius: 25px;
+  color: #fff;
+  background-color: $colour-secondary;
+  border: none;
+  width: 120px;
+  font-weight: 700;
+}
+
+.learn-more-btn {
+  background-color: $colour-quaternary;
+  margin-right: 5px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: small;
+}

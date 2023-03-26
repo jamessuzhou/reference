@@ -1,0 +1,22 @@
+@include mobile {
+  .my-grid-1 {
+    grid-template-columns: 1fr;
+  }
+  .my-grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+    .inner-container {
+    width:95%;
+  }
+}
+
+@include tablet {
+  .my-grid-1,
+  .my-grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .inner-container {
+    width:80%;
+  }
+}

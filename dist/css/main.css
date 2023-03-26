@@ -1,0 +1,399 @@
+.fa-heart {
+  color: red;
+  font-size: x-small;
+}
+
+.cta-btn {
+  width: 100px;
+  font-size: small;
+  background-color: #5896d6;
+  margin: 20px 5px;
+}
+
+.card-btn {
+  border-radius: 25px;
+  color: #fff;
+  background-color: #338a9e;
+  border: none;
+  width: 120px;
+  margin: 20px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.tiny-circle {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  border: none;
+  color: black;
+  font-weight: 800;
+}
+
+.case-study-btn {
+  border-radius: 25px;
+  color: #fff;
+  background-color: #338a9e;
+  border: none;
+  width: 120px;
+  font-weight: 700;
+}
+
+.learn-more-btn {
+  background-color: #3994d4;
+  margin-right: 5px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: small;
+}
+
+.case-studies {
+  width: 75%;
+  overflow: hidden;
+  position: relative;
+  background: #d0d4d8;
+  border: 2px solid #3994d4;
+  margin: 40px 0;
+}
+
+.case-studies-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  width: 100%;
+  background-color: #3994d4;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.case-studies-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.case-studies-container::-webkit-scrollbar {
+  display: none;
+}
+
+.case-study-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 450px;
+  margin-right: 40px;
+  background-color: #3994d4;
+  color: #ffffff;
+}
+
+.case-study-img {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.case-study-thumb {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.case-study-name {
+  padding: 10px;
+}
+
+.case-study-desc {
+  padding: 10px;
+}
+
+.case-study-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9;
+  background: #ececee;
+  color: #161b55;
+  opacity: 0.2;
+}
+
+.pre-btn {
+  left: 0;
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn:hover i,
+.nxt-btn:hover i {
+  scale: 1.2;
+  opacity: 1;
+}
+
+.pre-btn:hover,
+.nxt-btn:hover {
+  transform: scaleX(1.2);
+  opacity: 1;
+}
+
+.case-studies-container {
+  width: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.my-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container, .inner-container--2 {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-mid-grey {
+  background-color: #d0d4d8;
+}
+
+.gold-partner {
+  overflow: hidden;
+  box-shadow: 5px 5px 15px grey;
+  border-radius: 10px;
+}
+.gold-partnerimg {
+  height: 100px;
+  width: 100px;
+}
+
+.gradientBackground {
+  background-image: linear-gradient(to right, #338a9e, #161b55);
+}
+
+.hero {
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-image: url("../assets/images/cisco_banner.png");
+}
+
+.my-grid-1 {
+  width: 100%;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 10px;
+}
+
+.my-grid-2 {
+  width: 100%;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 10px;
+}
+
+.custom-card {
+  border-radius: 0;
+  background-color: #fff;
+}
+
+.divider {
+  border-bottom: 3px solid #338a9e;
+  width: 80px;
+  margin: 20px 0;
+}
+
+.divider--white {
+  border-bottom: 3px solid #fff;
+  width: 80px;
+  margin: 20px 0;
+}
+
+.latest-posts-heading {
+  color: #fff;
+}
+
+.infographic {
+  width: 100%;
+}
+
+.with-dots {
+  position: relative;
+}
+
+.overlaid--img {
+  height: 125px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 1.5rem;
+  margin: auto;
+}
+.overlaid--btn {
+  border-radius: 25px;
+  color: #fff;
+  background-color: #338a9e;
+  border: none;
+  width: 110px;
+  height: 35px;
+  font-weight: 600;
+  font-size: smaller;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 2rem;
+  margin: auto;
+}
+
+.blue-line {
+  border-bottom: 7px solid #3994d4;
+  width: 100%;
+  margin: 20px 0;
+  padding-top: 20px;
+}
+
+.dots {
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.mission-card {
+  border-radius: 0;
+  border: 0;
+}
+.mission-card .card-body {
+  background-color: #3994d4;
+  color: #ffffff;
+}
+
+.bg-color-primary {
+  background-color: #161b55;
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.card-img-top {
+  position: relative;
+}
+
+.white-veil::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom right, #45be8c, #1a437d);
+  opacity: 0.6;
+}
+
+.nav-link {
+  font-size: smaller;
+}
+
+.inner-container--2 {
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 40px;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(10deg) brightness(111%) contrast(100%);
+  height: 50px;
+}
+
+.contact-info {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+li h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #338a9e;
+}
+
+@media all and (max-width: 768px) {
+  .my-grid-1 {
+    grid-template-columns: 1fr;
+  }
+  .my-grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .inner-container, .inner-container--2 {
+    width: 95%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .my-grid-1,
+.my-grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .inner-container, .inner-container--2 {
+    width: 80%;
+  }
+}/*# sourceMappingURL=main.css.map */

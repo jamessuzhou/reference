@@ -1,0 +1,37 @@
+{
+  "tags": [
+    "swiper"
+  ],
+  "name": "Swiper - Infinite loop with slides per group",
+  "dependencies": {
+    "swiper": "latest",
+    "parcel-bundler": "^1.6.1"
+  },
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "./styles"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**"
+  ],
+  "name": "nsc.com",
+  "version": "1.0.0",
+  "description": "nsc} website mockup",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.60.0"
+  }
+}

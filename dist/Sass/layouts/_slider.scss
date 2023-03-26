@@ -1,0 +1,104 @@
+.case-studies {
+  width: 75%;
+  overflow: hidden;
+  position: relative;
+  background: $colour-mid-grey;
+  border: 2px solid $colour-quaternary;
+  margin: 40px 0;
+}
+
+.case-studies-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  width: 100%;
+  background-color: $colour-quaternary;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.case-studies-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.case-studies-container::-webkit-scrollbar {
+  display: none;
+}
+
+.case-study-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 450px;
+  margin-right: 40px;
+  background-color: $colour-quaternary;
+  color: #ffffff;
+}
+
+.case-study-img {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.case-study-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.case-study-name {
+  padding: 10px;
+}
+
+.case-study-desc {
+  padding: 10px;
+}
+
+.case-study-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9;
+  background: $colour-grey;
+  color: $colour-primary;
+  opacity: 0.2;
+}
+
+.pre-btn {
+  left: 0;
+}
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn:hover i,
+.nxt-btn:hover i {
+  scale: 1.2;
+  opacity: 1;
+}
+
+.pre-btn:hover,
+.nxt-btn:hover {
+  transform: scaleX(1.2);
+  opacity: 1;
+}
+
+.case-studies-container {
+  width: 100%;
+}
